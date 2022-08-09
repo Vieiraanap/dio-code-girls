@@ -28,5 +28,11 @@ public class Main {
         Quadrilatero.area(5, 5);
         Quadrilatero.area(7, 8, 9);
 
+//        Quadrilátero Retorno
+        System.out.println("Quadrilátero Retorno");
+        System.out.println("Retorno Quadrado: " + Quadrilatero.areaRetorno(2));
+        System.out.println("Retorno Retângulo: " + Quadrilatero.areaRetorno(5, 5));
+        System.out.println("Retorno Trapézio: " + Quadrilatero.areaRetorno(7, 8, 9));
+
     }
 }
